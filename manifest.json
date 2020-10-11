@@ -1,0 +1,17 @@
+
+{
+    "name": "Good Anime",
+    "short_name": "goodanm",
+    "description": "Portal Anime Kamu",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#9A825F",
+    "theme_color": "#9A825F",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
