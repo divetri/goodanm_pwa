@@ -3,8 +3,8 @@
     padding: 0;
     margin: 0;
     font-family: "Montserrat";
+    
 }
-
 main {
     width: 100%;
     max-width: 900px;
@@ -23,7 +23,6 @@ h2{
 }
 .container{
     font-weight: 100;
-    font-size: 20px;
 }
 #body-content a{
     color: #5D0C1D;
@@ -41,16 +40,34 @@ table{
     text-align: center;
 }
 table img{
-    height: 160px;
-    min-width: 120px;
+    height: 200px;
+    min-width: 150px;
     inline-size: auto;
 }
+@media screen and (max-width: 360px) {
+    table img{
+        height: 100px;
+        min-width: 75px;
+        inline-size: auto;
+    }
+}
+@media screen and (max-width: 280px) {
+    table img{
+        height: 80px;
+        min-width: 60px;
+        inline-size: auto;
+    }
+    table{
+        padding: 0pt;
+    }
+}
+
 table .title{
     font-weight: 600;
 }
-img{
-    max-height: 600px;
-}
 .contact :hover{
     background-color: #9A825F !important;
+}
+.brand-logo{
+    font-size: 20px !important;
 }
